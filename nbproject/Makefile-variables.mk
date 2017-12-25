@@ -9,19 +9,19 @@ CND_DISTDIR=dist
 # Debug configuration
 CND_PLATFORM_Debug=GNU-MacOSX
 CND_ARTIFACT_DIR_Debug=dist/Debug/GNU-MacOSX
-CND_ARTIFACT_NAME_Debug=restaurantboookingapp
-CND_ARTIFACT_PATH_Debug=dist/Debug/GNU-MacOSX/restaurantboookingapp
+CND_ARTIFACT_NAME_Debug=restaurantbookingapp
+CND_ARTIFACT_PATH_Debug=dist/Debug/GNU-MacOSX/restaurantbookingapp
 CND_PACKAGE_DIR_Debug=dist/Debug/GNU-MacOSX/package
-CND_PACKAGE_NAME_Debug=restaurantboookingapp.tar
-CND_PACKAGE_PATH_Debug=dist/Debug/GNU-MacOSX/package/restaurantboookingapp.tar
+CND_PACKAGE_NAME_Debug=restaurantbookingapp.tar
+CND_PACKAGE_PATH_Debug=dist/Debug/GNU-MacOSX/package/restaurantbookingapp.tar
 # Release configuration
 CND_PLATFORM_Release=GNU-MacOSX
 CND_ARTIFACT_DIR_Release=dist/Release/GNU-MacOSX
-CND_ARTIFACT_NAME_Release=restaurantboookingapp
-CND_ARTIFACT_PATH_Release=dist/Release/GNU-MacOSX/restaurantboookingapp
+CND_ARTIFACT_NAME_Release=restaurantbookingapp
+CND_ARTIFACT_PATH_Release=dist/Release/GNU-MacOSX/restaurantbookingapp
 CND_PACKAGE_DIR_Release=dist/Release/GNU-MacOSX/package
-CND_PACKAGE_NAME_Release=restaurantboookingapp.tar
-CND_PACKAGE_PATH_Release=dist/Release/GNU-MacOSX/package/restaurantboookingapp.tar
+CND_PACKAGE_NAME_Release=restaurantbookingapp.tar
+CND_PACKAGE_PATH_Release=dist/Release/GNU-MacOSX/package/restaurantbookingapp.tar
 #
 # include compiler specific variables
 #

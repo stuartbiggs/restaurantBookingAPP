@@ -24,7 +24,7 @@ CLEAN_SUBPROJECTS=${CLEAN_SUBPROJECTS_${SUBPROJECTS}}
 
 
 # Project Name
-PROJECTNAME=restaurantBoookingApp
+PROJECTNAME=restaurantBookingAPP
 
 # Active Configuration
 DEFAULTCONF=Debug

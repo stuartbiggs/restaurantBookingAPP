@@ -5,7 +5,7 @@
  */
 
 #include <iostream>
-//#include <string>
+#include <string>
 #include "Table.h"
 
 using namespace std;
@@ -42,10 +42,25 @@ using namespace std;
     } // end function getTableState
     
   
+   
+    void Table::setClientNumber(int ClientNumber) 
+    {
+        ClientNumber = ClientNumber;
+    }
+    
+    int Table::getClientNumber() const
+    {
+        return ClientNumber;
+    }
+    
+    
+    
+    
     //function that displays a welcome message
     void Table::displayMessage() const
     {
-        cout << "This is the table Application " << endl; // table message
+        cout << "This is the Table Application " << endl; // table message
+        
         cout << "\nThe table number is: " << getTableNumber()
                 << endl;
     } //end function displayMessage
@@ -53,7 +68,7 @@ using namespace std;
     //function that displays the table state
     void Table::displayTableState() const
     {
-        cout << "The table status is: " << getTableState() 
+        cout << "\nThe table status is: " << getTableState() 
                 << endl;
     } //end function displayTableState
     

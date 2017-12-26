@@ -22,10 +22,13 @@ public:
     int getTableNumber() const;
     void setTableState( string tableState );
     string getTableState() const;
+    void setClientNumber( int Number );
+    int getClientNumber() const;
     void displayMessage() const;
     void displayTableState() const;
-
+    
 private:
     int TableNum = 1;
     string TableState = "empty";
+    int ClientNumber = 0;
 };

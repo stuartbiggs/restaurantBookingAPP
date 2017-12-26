@@ -30,5 +30,5 @@ public:
 private:
     int TableNum = 1;
     string TableState = "empty";
-    int ClientNumber = 0;
+    int CliNum = 0;
 };

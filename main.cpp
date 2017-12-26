@@ -18,9 +18,8 @@ int main() {
     myTable.displayMessage(); // display the welcome message of the table
     
     cout << "\nPlease enter number of people at table: " << endl;
-    //getline( cin, ClientNumber );
-    //Table->setClientNumber()
-    
+    getline( cin, CliNum );
+   
     myTable.displayTableState();
     
     return 0;

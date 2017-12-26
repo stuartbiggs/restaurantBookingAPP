@@ -45,12 +45,12 @@ using namespace std;
    
     void Table::setClientNumber(int ClientNumber) 
     {
-        ClientNumber = ClientNumber;
+        ClientNumber = CliNum;
     }
     
     int Table::getClientNumber() const
     {
-        return ClientNumber;
+        return CliNum;
     }
     
     

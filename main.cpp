@@ -20,7 +20,7 @@ int main() {
     
     cout << "\nPlease enter number of people at table: " << endl;
     cin >> peopleTemp;
-    //Table.setClientNumber( ClientNumber );
+    myTable.setClientNumber( peopleTemp );
     
     myTable.displayTableState();
     

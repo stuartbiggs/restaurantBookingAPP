@@ -53,9 +53,6 @@ using namespace std;
         return CliNum;
     }
     
-    
-    
-    
     //function that displays a welcome message
     void Table::displayMessage() const
     {
@@ -64,6 +61,9 @@ using namespace std;
         cout << "\nThe table number is: " << getTableNumber()
                 << endl;
     } //end function displayMessage
+    
+    //function to check table status
+    
     
     //function that displays the table state
     void Table::displayTableState() const

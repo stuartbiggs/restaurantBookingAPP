@@ -24,6 +24,7 @@ public:
     string getTableState() const;
     void setClientNumber( int Number );
     int getClientNumber() const;
+    //string checkTableStatus() const;
     void displayMessage() const;
     void displayTableState() const;
     

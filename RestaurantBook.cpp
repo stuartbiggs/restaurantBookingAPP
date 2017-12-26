@@ -45,7 +45,7 @@ using namespace std;
    
     void Table::setClientNumber(int ClientNumber) 
     {
-        ClientNumber = CliNum;
+        CliNum = ClientNumber;
     }
     
     int Table::getClientNumber() const

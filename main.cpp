@@ -8,6 +8,7 @@
 #include <string>
 #include "Table.h" 
 
+int peopleTemp = 0;
 
 int main() {
 
@@ -18,8 +19,9 @@ int main() {
     myTable.displayMessage(); // display the welcome message of the table
     
     cout << "\nPlease enter number of people at table: " << endl;
-    getline( cin, CliNum );
-   
+    cin >> peopleTemp;
+    //Table.setClientNumber( ClientNumber );
+    
     myTable.displayTableState();
     
     return 0;

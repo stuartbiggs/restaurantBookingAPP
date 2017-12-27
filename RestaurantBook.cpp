@@ -71,8 +71,10 @@ using namespace std;
         // str2 is set to the original text of TableState before it is changed
         string str1 = "Table in use"; 
         string str2 = TableState;
-            
-        if (CliNum > 0)   
+        string str3 = "Table is not in use.";
+        
+        if (CliNum > 0) {
+          
             //cout << "\n" << CliNum << endl;
             //cout << "\n" << TableState << endl;
            
@@ -80,6 +82,11 @@ using namespace std;
             str1.swap( str2 );
             TableState = str2;
             TableState.swap( str2 );
+        } else {
+            str3.swap( str2 );
+            TableState = str2;
+            TableState.swap( str2 );
+        }   
     } // end function check table status
     
     //function that displays the table state

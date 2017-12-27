@@ -22,6 +22,9 @@ int main() {
     cin >> peopleTemp;
     myTable.setClientNumber( peopleTemp );
     
+    myTable.checkTableStatus();
+   
+    
     myTable.displayTableState();
     
     return 0;

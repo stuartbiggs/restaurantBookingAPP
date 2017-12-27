@@ -24,12 +24,12 @@ public:
     string getTableState() const;
     void setClientNumber( int Number );
     int getClientNumber() const;
-    //string checkTableStatus() const;
+    string checkTableStatus();
     void displayMessage() const;
     void displayTableState() const;
     
 private:
     int TableNum = 1;
-    string TableState = "empty";
+    string TableState = "Empty";
     int CliNum = 0;
 };

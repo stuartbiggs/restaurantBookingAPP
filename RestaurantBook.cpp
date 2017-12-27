@@ -63,7 +63,20 @@ using namespace std;
     } //end function displayMessage
     
     //function to check table status
-    
+    string Table::checkTableStatus() 
+    {
+         string str1 = "Table in use";
+            string str2 = TableState;
+            
+        if (CliNum > 0)   
+            //cout << "\n" << CliNum << endl;
+            //cout << "\n" << TableState << endl;
+           
+            string str1 = TableState;
+            str1.swap( str2 );
+            TableState = str2;
+            TableState.swap( str2 );
+    }
     
     //function that displays the table state
     void Table::displayTableState() const

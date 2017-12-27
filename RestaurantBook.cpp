@@ -42,16 +42,17 @@ using namespace std;
     } // end function getTableState
     
   
-   
+   // function to set the client number
     void Table::setClientNumber(int ClientNumber) 
     {
         CliNum = ClientNumber;
-    }
+    } // end function set Client number
     
+    // function to get Client number
     int Table::getClientNumber() const
     {
         return CliNum;
-    }
+    } // end function get Client number
     
     //function that displays a welcome message
     void Table::displayMessage() const
@@ -65,18 +66,21 @@ using namespace std;
     //function to check table status
     string Table::checkTableStatus() 
     {
-         string str1 = "Table in use";
-            string str2 = TableState;
+        // str1 stored the text to put inserted into TableState when client 
+        // number becomes greater than 0
+        // str2 is set to the original text of TableState before it is changed
+        string str1 = "Table in use"; 
+        string str2 = TableState;
             
         if (CliNum > 0)   
             //cout << "\n" << CliNum << endl;
             //cout << "\n" << TableState << endl;
            
-            string str1 = TableState;
+            
             str1.swap( str2 );
             TableState = str2;
             TableState.swap( str2 );
-    }
+    } // end function check table status
     
     //function that displays the table state
     void Table::displayTableState() const

@@ -1,7 +1,4 @@
-#ifndef Table_H
-#define Table_H
 
-#endif
 
 /* 
  * File:   Table.h

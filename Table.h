@@ -16,7 +16,7 @@ class Table
 {
 
 public:    
-    // function prototypes
+    //function prototypes
     explicit Table();
     void setTableNumber( int tableNumber );
     int getTableNumber() const;
@@ -29,7 +29,7 @@ public:
     void displayTableState() const;
     
 private:
-    // variables declaration
+    //variables declaration
     int TableNum = 1;
     string TableState = "Empty";
     int CliNum = 0;

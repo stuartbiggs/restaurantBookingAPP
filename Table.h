@@ -12,22 +12,20 @@
 #include <string>
 using namespace std;
 
-class Table
-{
-
-public:    
+class Table {
+public:
     //function prototypes
     explicit Table();
-    void setTableNumber( int tableNumber );
+    void setTableNumber(int tableNumber);
     int getTableNumber() const;
-    void setTableState( string tableState );
+    void setTableState(string tableState);
     string getTableState() const;
-    void setClientNumber( int Number );
+    void setClientNumber(int Number);
     int getClientNumber() const;
     string checkTableStatus();
     void displayMessage() const;
     void displayTableState() const;
-    
+
 private:
     //variables declaration
     int TableNum = 1;

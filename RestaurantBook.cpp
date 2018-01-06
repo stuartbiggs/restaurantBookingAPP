@@ -24,44 +24,38 @@ Table::~Table() {
     
 }
 
-//function that sets the table number
+//Function that sets the table number
 void Table::setTableNumber(int tableNumber) {
     tableNumber = TableNum;
 } //end function setTableNumer
 
-//function that gets the table number
-
+//Function that gets the table number
 int Table::getTableNumber() const {
     return TableNum;
 } //end function getTableNumber
 
-//function that sets the Table state
-
+//Function that sets the Table state
 void Table::setTableState(string tableState) {
     tableState = TableState;
 } //end function setTableState
 
-//function that gets the Table state
-
+//Function that gets the Table state
 string Table::getTableState() const {
     return TableState;
 } // end function getTableState
 
 
-// function to set the client number
-
+//Function to set the client number
 void Table::setClientNumber(int ClientNumber) {
     CliNum = ClientNumber;
-} // end function set Client number
+} //end function set Client number
 
-// function to get Client number
-
+//Function to get Client number
 int Table::getClientNumber() const {
     return CliNum;
-} // end function get Client number
+} //end function get Client number
 
-//function that displays a welcome message
-
+//Function that displays a welcome message
 void Table::displayMessage() const {
     cout << "This is the Table Application " << endl; // table message
 
@@ -69,8 +63,7 @@ void Table::displayMessage() const {
             << endl;
 } //end function displayMessage
 
-//function to check table status
-
+//Function to check table status
 string Table::checkTableStatus() {
     // str1 stored the text to put inserted into TableState when client 
     // number becomes greater than 0
@@ -93,10 +86,9 @@ string Table::checkTableStatus() {
         TableState = str2;
         TableState.swap(str2);
     }
-} // end function check table status
+} //end function check table status
 
-//function that displays the table state
-
+//Function that displays the table state
 void Table::displayTableState() const {
     cout << "\nThe table status is: " << getTableState()
             << endl;

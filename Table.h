@@ -6,15 +6,15 @@
  * Created on 21 December 2017, 02:03
  */
 
-
+#ifndef Table_H
+#define Table_H
 
 #include <iostream>
 #include <string>
 
 using namespace std;
 
-#ifndef Table_H
-#define Table_H
+
 
 class Table {
 public:

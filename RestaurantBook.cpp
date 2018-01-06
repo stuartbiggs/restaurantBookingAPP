@@ -18,6 +18,7 @@ Table::Table() {
 
 Table::Table(int peopleTemp) {
     peopleTemp = 0;
+    TableNum = 1;
 }
 
 Table::~Table() {
@@ -85,7 +86,9 @@ string Table::checkTableStatus() {
         str3.swap(str2);
         TableState = str2;
         TableState.swap(str2);
+       
     }
+    return TableState;
 } //end function check table status
 
 //Function that displays the table state

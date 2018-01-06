@@ -15,7 +15,7 @@ using namespace std;
 Table::Table() {
     int TableNum = 0;
     string TableState = "empty";
-}
+} //end of default constructor 
 
 //function that sets the table number
 

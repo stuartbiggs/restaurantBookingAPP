@@ -24,6 +24,9 @@ public:
     //Overload Constructor
     Table(int);
     
+    //Destructor
+    ~Table();
+    
     void setTableNumber(int tableNumber);
     int getTableNumber() const;
     void setTableState(string tableState);

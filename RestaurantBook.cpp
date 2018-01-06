@@ -20,6 +20,10 @@ Table::Table(int peopleTemp) {
     peopleTemp = 0;
 }
 
+Table::~Table() {
+    
+}
+
 //function that sets the table number
 void Table::setTableNumber(int tableNumber) {
     tableNumber = TableNum;

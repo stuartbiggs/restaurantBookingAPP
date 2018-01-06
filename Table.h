@@ -21,6 +21,9 @@ public:
     //Default Constructor
     Table();
     
+    //Overload Constructor
+    Table(int);
+    
     void setTableNumber(int tableNumber);
     int getTableNumber() const;
     void setTableState(string tableState);

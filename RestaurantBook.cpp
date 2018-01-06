@@ -14,10 +14,13 @@ Table::Table() {
     int TableNum = 0;
     string TableState = "empty";
     int CliNum = 0;
-} //end of default constructor 
+}
+
+Table::Table(int peopleTemp) {
+    peopleTemp = 0;
+}
 
 //function that sets the table number
-
 void Table::setTableNumber(int tableNumber) {
     tableNumber = TableNum;
 } //end function setTableNumer

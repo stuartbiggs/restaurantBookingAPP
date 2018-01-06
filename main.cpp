@@ -4,15 +4,16 @@
  *
  * Created on 19 December 2017, 13:20
  */
+
 #include <iostream>
 #include <string>
 #include "Table.h" 
 
-int peopleTemp = 0;
+int peopleTemp;
 
 int main() {
 
-    Table myTable; // table instance called myTable
+    Table myTable(peopleTemp); // table instance called myTable
 
     myTable.displayMessage(); // display the welcome message of the table
 

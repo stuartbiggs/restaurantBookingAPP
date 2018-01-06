@@ -32,6 +32,7 @@ public:
     string getTableState() const;
     int getClientNumber() const;
     
+    //Mutator Functions
     void setTableNumber(int tableNumber);
     void setTableState(string tableState);
     void setClientNumber(int Number);

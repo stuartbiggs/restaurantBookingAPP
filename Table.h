@@ -27,12 +27,15 @@ public:
     //Destructor
     ~Table();
     
-    void setTableNumber(int tableNumber);
+    //Accessor Functions
     int getTableNumber() const;
-    void setTableState(string tableState);
     string getTableState() const;
-    void setClientNumber(int Number);
     int getClientNumber() const;
+    
+    void setTableNumber(int tableNumber);
+    void setTableState(string tableState);
+    void setClientNumber(int Number);
+   
     string checkTableStatus();
     void displayMessage() const;
     void displayTableState() const;

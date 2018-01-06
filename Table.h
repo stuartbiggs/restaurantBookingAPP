@@ -13,6 +13,9 @@
 
 using namespace std;
 
+#ifndef Table_H
+#define Table_H
+
 class Table {
 public:
     //function prototypes
@@ -33,3 +36,5 @@ private:
     string TableState = "Empty";
     int CliNum = 0;
 };
+
+#endif

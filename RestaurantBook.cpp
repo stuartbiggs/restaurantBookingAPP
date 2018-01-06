@@ -13,6 +13,7 @@ using namespace std;
 Table::Table() {
     int TableNum = 0;
     string TableState = "empty";
+    int CliNum = 0;
 } //end of default constructor 
 
 //function that sets the table number

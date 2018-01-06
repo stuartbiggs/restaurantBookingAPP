@@ -18,8 +18,9 @@ using namespace std;
 
 class Table {
 public:
-    //function prototypes
-    explicit Table();
+    //Default Constructor
+    Table();
+    
     void setTableNumber(int tableNumber);
     int getTableNumber() const;
     void setTableState(string tableState);
@@ -31,10 +32,11 @@ public:
     void displayTableState() const;
 
 private:
-    //variables declaration
-    int TableNum = 1;
-    string TableState = "Empty";
-    int CliNum = 0;
+    //Member Variables 
+    int TableNum;
+    string TableState;
+    int CliNum;
 };
 
 #endif
+

@@ -4,14 +4,12 @@
  * and open the template in the editor.
  */
 
-#include <iostream>
-#include <string>
+
 #include "Table.h"
 
 using namespace std;
 
 //Default Constructor 
-
 Table::Table() {
     int TableNum = 0;
     string TableState = "empty";
